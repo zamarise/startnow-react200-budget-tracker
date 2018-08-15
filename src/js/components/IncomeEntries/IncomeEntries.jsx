@@ -1,7 +1,7 @@
 import React from 'react';
 
 // We'll need to import all those action creators.
-import { updateIncomeDescription, updateIncomeAmount, addIncome } from './IncomeActions';
+import { updateIncomeDescription, updateIncomeAmount, addIncome } from './incomeActions';
 
 export default class IncomeEntries extends React.Component {
   constructor(props) {
