@@ -1,6 +1,6 @@
 # React/Redux Budget Tracker
 
-> A hackathon project (made in React). Refresh the page for a new recipe.
+> A budget tracker that takes in income and expenses and calculates what is left after spending.
 
 This was my fourteenth project at Origin Code Academy. This app was made using React and Redux.
 
