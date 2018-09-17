@@ -1,6 +1,6 @@
 import React from 'react';
 
-// We'll need to import all those action creators.
+// We'll need to import all the action creators.
 import { updateIncomeDescription, updateIncomeAmount, addIncome } from './incomeActions';
 
 export default class IncomeEntries extends React.Component {
@@ -38,8 +38,8 @@ export default class IncomeEntries extends React.Component {
     // These values were provided by connect()
     const { description, amount, lineItems } = this.props;
     return (
-      <div className='card border-danger mb-3'>
-        <div className='card-header text-white bg-danger'>Income Entries</div>
+      <div className='card border-success mb-3'>
+        <div className='card-header text-white bg-success'>Income Entries</div>
         <div className='card-body'>
           <form>
             <div className='form-group'>
@@ -67,7 +67,7 @@ export default class IncomeEntries extends React.Component {
             </div>
             <button
               type='button'
-              className='btn btn-danger col-12 mb-5'
+              className='btn btn-success col-12 mb-5'
               onClick={ this.handleAddIncome }
             >
               + Add Income
